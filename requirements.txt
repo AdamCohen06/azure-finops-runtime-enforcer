@@ -1,0 +1,5 @@
+azure-identity
+azure-mgmt-compute
+azure-mgmt-monitor
+azure-storage-blob
+requests
