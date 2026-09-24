@@ -9,11 +9,11 @@ An autonomous, event-driven FinOps automation solution engineered in Azure to tr
 The system addresses cloud compute overspending in research and lab environments by continuously monitoring compute usage, maintaining state persistence across execution cycles, and automating policy enforcement.
 
 ```text
-  ┌────────────────────────────────────────────────────────┐
-  │         Azure Automation (Hourly Scheduled Runbook)     │
-  │         • Python 3.10 Runtime Environment              │
-  │         • System-Assigned Managed Identity Authentication │
-  └───────────────────────────┬────────────────────────────┘
+  ┌──────────────────────────────────────────────────────────┐
+  │         Azure Automation (Hourly Scheduled Runbook)      │
+  │         • Python 3.10 Runtime Environment                │
+  │         • System-Assigned Managed Identity Authentication│
+  └───────────────────────────┬──────────────────────────────┘
                               │
                ┌──────────────┴──────────────┐
                ▼                             ▼
